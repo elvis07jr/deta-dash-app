@@ -1,0 +1,14 @@
+{
+  "extends": "react-app",
+  "globals": {
+    "__firebase_config": "readonly",
+    "__app_id": "readonly",
+    "__initial_auth_token": "readonly",
+    "Papa": "readonly"
+  },
+  "rules": {
+    // Suppress specific ESLint rules if they conflict with the environment or style
+    "no-unused-vars": "warn",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+} 
