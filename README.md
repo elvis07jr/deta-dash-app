@@ -78,18 +78,6 @@ This will open the application in your browser at `http://localhost:3000` (or an
 ## Deployment
 For easy deployment, Vercel is highly recommended due to its seamless integration with GitHub.
 
-### Steps
-1. **Push your code to GitHub:** Ensure your project is in a GitHub repository (e.g., `deta-dash-app`).
-2. **Connect to Vercel:** Sign up or log in to Vercel and import your GitHub repository.
-3. **Configure Environment Variables on Vercel:** Crucially, add all the `REACT_APP_FIREBASE_...` and `REACT_APP_APP_ID` environment variables directly in Vercel's project settings (under "Environment Variables"). These are securely managed by Vercel and should not be part of your public repository.
-4. **Deploy:** Vercel will automatically detect that it's a React app and deploy it. Subsequent pushes to your main branch will trigger automatic redeployments.
-
-## Usage
-1. **Upload Dataset:** On the main screen, use the "Upload Your Dataset (CSV or JSON)" input to select your data file.
-2. **Analyze Data:** Click the "Analyze Data & Generate Dashboard" button. The AI will process your data and present a dashboard.
-3. **Explore Dashboard:** View the generated charts, descriptive tables, and key metrics.
-4. **Automatic Saving:** Your dashboards are automatically saved to Firebase, linked to your user ID.
-5. **Access Saved Dashboards:** Click "My Dashboards" to see a list of your previously generated dashboards and load them.
 
 ## License
 This project is open-source and available under the MIT License.
